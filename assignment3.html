@@ -1,0 +1,20 @@
+<html>
+  <head>
+  <h2>this is my eighth js demo</h2>
+  <h5>js statements and variables demo</h5>
+    <body>
+    <p id="today"></p>
+    <script>
+        var today = new Date();
+var dd = String(today. getDate()). padStart(2, '0');
+var mm = String(today. getMonth() + 1). padStart(2, '0');
+var yyyy = today. getFullYear();
+​
+today = mm + '/' + dd + '/' + yyyy;
+document.getElementById('today').innerHTML="todays date is.";
+
+        
+    </script>
+      </body>
+</head>
+</html>
